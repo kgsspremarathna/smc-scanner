@@ -12,7 +12,7 @@ st.markdown("Scanning ALL Binance Coins & Sending Alerts Automatically Every 30 
 # 🔥 Auto Refresh Setup (30 Minutes = 1800000 ms)
 st_autorefresh(interval=1800000, limit=None, key="auto_refresh")
 
-BINANCE_API = "https://fapi1.binance.com/fapi/v1"
+BINANCE_API = "https://fapi2.binance.com/fapi/v1"
 
 @st.cache_data(ttl=300)
 def get_all_futures_symbols():
